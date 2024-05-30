@@ -13,6 +13,8 @@
 		E8A941182BFFAE010056AEED /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E8A941172BFFAE010056AEED /* Base */; };
 		E8A9411A2BFFAE020056AEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A941192BFFAE020056AEED /* Assets.xcassets */; };
 		E8A9411D2BFFAE020056AEED /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E8A9411C2BFFAE020056AEED /* Base */; };
+		E8C3812B2C08376F00E2CE70 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C3812A2C08376F00E2CE70 /* AboutViewController.swift */; };
+		E8C3812D2C0844F600E2CE70 /* Mood.html in Resources */ = {isa = PBXBuildFile; fileRef = E8C3812C2C0844F600E2CE70 /* Mood.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E8A941192BFFAE020056AEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8A9411C2BFFAE020056AEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8A9411E2BFFAE020056AEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8C3812A2C08376F00E2CE70 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		E8C3812C2C0844F600E2CE70 /* Mood.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Mood.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		E8A9410F2BFFAE010056AEED /* MoodApp1 */ = {
 			isa = PBXGroup;
 			children = (
+				E8C3812C2C0844F600E2CE70 /* Mood.html */,
 				E8A941102BFFAE010056AEED /* AppDelegate.swift */,
 				E8A941122BFFAE010056AEED /* SceneDelegate.swift */,
 				E8A941142BFFAE010056AEED /* ViewController.swift */,
 				E8A941162BFFAE010056AEED /* Main.storyboard */,
+				E8C3812A2C08376F00E2CE70 /* AboutViewController.swift */,
 				E8A941192BFFAE020056AEED /* Assets.xcassets */,
 				E8A9411B2BFFAE020056AEED /* LaunchScreen.storyboard */,
 				E8A9411E2BFFAE020056AEED /* Info.plist */,
@@ -128,6 +134,7 @@
 				E8A9411A2BFFAE020056AEED /* Assets.xcassets in Resources */,
 				E8A9411D2BFFAE020056AEED /* Base in Resources */,
 				E8A941182BFFAE010056AEED /* Base in Resources */,
+				E8C3812D2C0844F600E2CE70 /* Mood.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			files = (
 				E8A941152BFFAE010056AEED /* ViewController.swift in Sources */,
 				E8A941112BFFAE010056AEED /* AppDelegate.swift in Sources */,
+				E8C3812B2C08376F00E2CE70 /* AboutViewController.swift in Sources */,
 				E8A941132BFFAE010056AEED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
